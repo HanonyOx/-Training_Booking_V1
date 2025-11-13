@@ -32,8 +32,8 @@ It also enables admins or training managers to create, update, and monitor avail
 
 ## 🧰 Tech Stack (Planned)
 - **Frontend:** HTML, CSS, JavaScript (React)
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
+- **Backend:**  python Django Node.js, Express.js
+- **Database:** MongoDB/MySQL
 - **Version Control:** Git & GitHub
 
 
