@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+   
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 40px;
+    background-color:beige;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+    color: rgb(6, 6, 6);
+    font-size: 16px;
+}
+
+.nav-bar li a:hover {
+    text-decoration: underline;
+    color: blue;
+}
