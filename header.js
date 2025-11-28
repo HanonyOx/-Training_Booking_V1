@@ -8,3 +8,15 @@ toogleBtn.onclick = function() {
 
     toogleBtnIcon.classList = isOpen ? 'fas fa-times' : 'fas fa-ellipsis-v';
 }
+// Close when clicking anywhere outside
+document.addEventListener('click', function (event) {
+    // If menu is open AND click is outside both menu and button
+    if (
+        mobileMenu.classList.contains('open') &&
+        !mobileMenu.contains(event.target) &&
+        !toogleBtn.contains(event.target)
+    ) {
+        mobileMenu.classList.remove('open');
+        toogleBtnIcon.classList = 'fas fa-ellipsis-v';
+    }
+});
